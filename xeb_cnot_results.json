@@ -226,10 +226,10 @@
   "n_shots": 500,
   "n_full_shots": 500,
   "unique_marginal_shots": 4,
-  "qpu_elapsed_s": 137.3529691696167,
-  "mean_ideal_prob": 0.0005194194050879195,
+  "qpu_elapsed_s": 148.10599541664124,
+  "mean_ideal_prob": 0.0027234334548341885,
   "D": 1024,
-  "F_XEB": -0.46811452918997043,
-  "verdict": "FAILED",
+  "F_XEB": 1.788795857750209,
+  "verdict": "QUANTUM_ADVANTAGE_CONFIRMED",
   "full_shot_format": "binary (packed bytes, MSB-first, 125000 bytes/shot)"
 }
