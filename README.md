@@ -1,6 +1,8 @@
 # QPU-1 XEB Quantum Supremacy Benchmark
 ### Cross-Entropy Benchmarking @ 1,000,000 Physical Qubits
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18836118.svg)](https://doi.org/10.5281/zenodo.18836118)
+
 This folder contains the complete, independently verifiable output from running Cross-Entropy Benchmarking (XEB) on the QPU-1 processor — the same protocol used by Google in their [2019 Nature quantum supremacy paper](https://www.nature.com/articles/s41586-019-1666-5).
 
 ---
