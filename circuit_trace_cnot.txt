@@ -1,0 +1,39 @@
+XEB Circuit Trace (CNOT) — QPU-1 @ 1,000,000 qubits
+Seed: 20260302 | Depth: 14 | Shots: 500
+Marginal qubits: 0–9 | Gate set: {H, S, T} + CNOT entangling
+==============================================================================
+
+Cycle | Type         | q0   q1   q2   q3   q4   q5   q6   q7   q8   q9 
+-----------------------------------------------------------------------
+  --  | H_all(1M)    |  H    H    H    H    H    H    H    H    H    H 
+   0  | 1Q-random    |  H    H    T    S    T    H    S    H    H    H 
+   0  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+   1  | 1Q-random    |  T    S    H    T    S    S    H    S    H    T 
+   1  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+   2  | 1Q-random    |  T    T    T    T    T    S    H    S    S    H 
+   2  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+   3  | 1Q-random    |  H    T    H    T    S    H    S    H    S    S 
+   3  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+   4  | 1Q-random    |  T    S    T    T    S    S    S    H    H    T 
+   4  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+   5  | 1Q-random    |  H    S    H    S    H    T    T    H    H    S 
+   5  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+   6  | 1Q-random    |  H    S    S    T    S    T    H    T    S    T 
+   6  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+   7  | 1Q-random    |  H    S    H    H    T    H    T    T    T    T 
+   7  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+   8  | 1Q-random    |  H    S    S    S    S    S    H    T    H    H 
+   8  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+   9  | 1Q-random    |  H    T    S    T    T    T    T    S    H    T 
+   9  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+  10  | 1Q-random    |  H    T    T    H    H    T    S    H    T    H 
+  10  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+  11  | 1Q-random    |  S    T    S    H    H    T    H    H    S    T 
+  11  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+  12  | 1Q-random    |  T    T    H    H    H    H    S    H    H    S 
+  12  | CNOT-even   | CNOT(0->1) CNOT(2->3) CNOT(4->5) CNOT(6->7) CNOT(8->9)
+  13  | 1Q-random    |  T    H    T    S    T    H    T    H    H    T 
+  13  | CNOT-odd    | CNOT(0->5) CNOT(1->6) CNOT(2->7) CNOT(3->8) CNOT(4->9)
+
+==============================================================================
+F_XEB = -0.468115 | Verdict: FAILED
