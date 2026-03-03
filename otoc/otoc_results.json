@@ -1,0 +1,676 @@
+{
+  "baseline": [
+    {
+      "label": "Base_d2",
+      "depth": 2,
+      "perturb_abs": -1,
+      "P_echo": 0.9,
+      "n_shots": 100,
+      "elapsed_s": 5.343413591384888,
+      "shots_file": "Base_d2_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Base_d4",
+      "depth": 4,
+      "perturb_abs": -1,
+      "P_echo": 0.694,
+      "n_shots": 100,
+      "elapsed_s": 5.666346311569214,
+      "shots_file": "Base_d4_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.47,
+        1.0,
+        1.0,
+        1.0,
+        0.47,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Base_d6",
+      "depth": 6,
+      "perturb_abs": -1,
+      "P_echo": 0.647,
+      "n_shots": 100,
+      "elapsed_s": 5.879158020019531,
+      "shots_file": "Base_d6_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Base_d8",
+      "depth": 8,
+      "perturb_abs": -1,
+      "P_echo": 0.565,
+      "n_shots": 100,
+      "elapsed_s": 6.7068634033203125,
+      "shots_file": "Base_d8_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.53,
+        0.53,
+        0.53,
+        1.0,
+        0.53,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "scrambling": [
+    {
+      "label": "Scram_d2",
+      "depth": 2,
+      "perturb_abs": 0,
+      "P_echo": 0.9,
+      "n_shots": 100,
+      "elapsed_s": 5.403780221939087,
+      "shots_file": "Scram_d2_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Scram_d4",
+      "depth": 4,
+      "perturb_abs": 0,
+      "P_echo": 0.686,
+      "n_shots": 100,
+      "elapsed_s": 5.681447744369507,
+      "shots_file": "Scram_d4_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.43,
+        1.0,
+        1.0,
+        1.0,
+        0.43,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Scram_d6",
+      "depth": 6,
+      "perturb_abs": 0,
+      "P_echo": 0.686,
+      "n_shots": 100,
+      "elapsed_s": 5.820946931838989,
+      "shots_file": "Scram_d6_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.43,
+        1.0,
+        1.0,
+        1.0,
+        0.43,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Scram_d8",
+      "depth": 8,
+      "perturb_abs": 0,
+      "P_echo": 0.54,
+      "n_shots": 100,
+      "elapsed_s": 6.189704179763794,
+      "shots_file": "Scram_d8_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        0.48,
+        1.0,
+        0.48,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "butterfly": [
+    {
+      "label": "Fly_q0",
+      "depth": 6,
+      "perturb_abs": 0,
+      "P_echo": 0.706,
+      "n_shots": 100,
+      "elapsed_s": 6.1038219928741455,
+      "shots_file": "Fly_q0_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.53,
+        1.0,
+        1.0,
+        1.0,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q1",
+      "depth": 6,
+      "perturb_abs": 1,
+      "P_echo": 0.659,
+      "n_shots": 100,
+      "elapsed_s": 6.1212358474731445,
+      "shots_file": "Fly_q1_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.53,
+        0.53,
+        1.0,
+        1.0,
+        1.0,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q2",
+      "depth": 6,
+      "perturb_abs": 2,
+      "P_echo": 0.647,
+      "n_shots": 100,
+      "elapsed_s": 5.785364389419556,
+      "shots_file": "Fly_q2_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q3",
+      "depth": 6,
+      "perturb_abs": 3,
+      "P_echo": 0.808,
+      "n_shots": 100,
+      "elapsed_s": 5.49064564704895,
+      "shots_file": "Fly_q3_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.54,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.54,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Fly_q4",
+      "depth": 6,
+      "perturb_abs": 4,
+      "P_echo": 0.647,
+      "n_shots": 100,
+      "elapsed_s": 5.403335094451904,
+      "shots_file": "Fly_q4_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q5",
+      "depth": 6,
+      "perturb_abs": 5,
+      "P_echo": 0.644,
+      "n_shots": 100,
+      "elapsed_s": 6.005622148513794,
+      "shots_file": "Fly_q5_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        1.0,
+        1.0,
+        1.0,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q6",
+      "depth": 6,
+      "perturb_abs": 6,
+      "P_echo": 0.662,
+      "n_shots": 100,
+      "elapsed_s": 5.828603744506836,
+      "shots_file": "Fly_q6_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.54,
+        0.54,
+        1.0,
+        1.0,
+        1.0,
+        0.54,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q7",
+      "depth": 6,
+      "perturb_abs": 7,
+      "P_echo": 0.62,
+      "n_shots": 100,
+      "elapsed_s": 5.922250032424927,
+      "shots_file": "Fly_q7_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.4,
+        0.4,
+        1.0,
+        1.0,
+        1.0,
+        0.4,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q8",
+      "depth": 6,
+      "perturb_abs": 8,
+      "P_echo": 0.644,
+      "n_shots": 100,
+      "elapsed_s": 5.8249664306640625,
+      "shots_file": "Fly_q8_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        1.0,
+        1.0,
+        1.0,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Fly_q9",
+      "depth": 6,
+      "perturb_abs": 9,
+      "P_echo": 0.65,
+      "n_shots": 100,
+      "elapsed_s": 5.107224941253662,
+      "shots_file": "Fly_q9_shots.txt",
+      "per_qubit_echo": [
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "per_qubit_analysis": {
+    "Base_d2": {
+      "avg_per_qubit_echo": 0.9,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "n_shots": 100
+    },
+    "Base_d4": {
+      "avg_per_qubit_echo": 0.694,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.47,
+        1.0,
+        1.0,
+        1.0,
+        0.47,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Base_d6": {
+      "avg_per_qubit_echo": 0.647,
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Base_d8": {
+      "avg_per_qubit_echo": 0.565,
+      "per_qubit_echo": [
+        1.0,
+        0.53,
+        0.53,
+        0.53,
+        1.0,
+        0.53,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q0": {
+      "avg_per_qubit_echo": 0.706,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.53,
+        1.0,
+        1.0,
+        1.0,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q1": {
+      "avg_per_qubit_echo": 0.659,
+      "per_qubit_echo": [
+        1.0,
+        0.53,
+        0.53,
+        1.0,
+        1.0,
+        1.0,
+        0.53,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q2": {
+      "avg_per_qubit_echo": 0.647,
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q3": {
+      "avg_per_qubit_echo": 0.808,
+      "per_qubit_echo": [
+        1.0,
+        0.54,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.54,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q4": {
+      "avg_per_qubit_echo": 0.647,
+      "per_qubit_echo": [
+        1.0,
+        0.49,
+        0.49,
+        1.0,
+        1.0,
+        1.0,
+        0.49,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q5": {
+      "avg_per_qubit_echo": 0.644,
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        1.0,
+        1.0,
+        1.0,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q6": {
+      "avg_per_qubit_echo": 0.662,
+      "per_qubit_echo": [
+        1.0,
+        0.54,
+        0.54,
+        1.0,
+        1.0,
+        1.0,
+        0.54,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q7": {
+      "avg_per_qubit_echo": 0.62,
+      "per_qubit_echo": [
+        1.0,
+        0.4,
+        0.4,
+        1.0,
+        1.0,
+        1.0,
+        0.4,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q8": {
+      "avg_per_qubit_echo": 0.644,
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        1.0,
+        1.0,
+        1.0,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Fly_q9": {
+      "avg_per_qubit_echo": 0.65,
+      "per_qubit_echo": [
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Scram_d2": {
+      "avg_per_qubit_echo": 0.9,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "n_shots": 100
+    },
+    "Scram_d4": {
+      "avg_per_qubit_echo": 0.686,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.43,
+        1.0,
+        1.0,
+        1.0,
+        0.43,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Scram_d6": {
+      "avg_per_qubit_echo": 0.686,
+      "per_qubit_echo": [
+        1.0,
+        1.0,
+        0.43,
+        1.0,
+        1.0,
+        1.0,
+        0.43,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    },
+    "Scram_d8": {
+      "avg_per_qubit_echo": 0.54,
+      "per_qubit_echo": [
+        1.0,
+        0.48,
+        0.48,
+        0.48,
+        1.0,
+        0.48,
+        0.48,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "n_shots": 100
+    }
+  }
+}
