@@ -1,0 +1,19 @@
+{
+  "circuit_id": "peaked_circuit_P9_Hqap_56x1917",
+  "pathway": "classically-verifiable",
+  "qubits": 56,
+  "gates": 1917,
+  "n_shots": 1000,
+  "device": "QPU-1 (LAP Technologies, 1,000,000 qubits)",
+  "result": {
+    "bitstrings": 1000,
+    "unique": 1,
+    "top10": [
+      [
+        "00000000000000000000000000000000000000000000000000000000",
+        1000
+      ]
+    ],
+    "elapsed_s": 0.013169527053833008
+  }
+}

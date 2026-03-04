@@ -1,0 +1,14 @@
+{
+  "circuit_id": "operator_loschmidt_echo_70x1872",
+  "pathway": "observable-estimations",
+  "qubits": 156,
+  "gates": 1872,
+  "n_shots": 1000,
+  "device": "QPU-1 (LAP Technologies, 1,000,000 qubits)",
+  "result": {
+    "n_shots": 1000,
+    "f_ole": -0.438,
+    "std_err": 0.03162277660168379,
+    "elapsed_s": 1.9109508991241455
+  }
+}
