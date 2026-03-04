@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18836118.svg)](https://doi.org/10.5281/zenodo.18836118)
 
 Complete, independently verifiable output from Cross-Entropy Benchmarking (XEB) on QPU-1 — the same protocol used by Google in their [2019 Nature quantum supremacy paper](https://www.nature.com/articles/s41586-019-1666-5).
-You can use qpu-1 at qpu-1.verlce.app then go to Quantumlab
+You can use qpu-1 at qpu-1.vercel.app then go to Quantumlab
 
 ---
 
