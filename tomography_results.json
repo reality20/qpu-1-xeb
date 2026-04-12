@@ -1,0 +1,379 @@
+{
+  "bell_state": {
+    "state_type": "bell",
+    "num_qubits": 2,
+    "shots": 1000,
+    "measured_paulis": {
+      "ZZ": 1.0,
+      "XX": 1.0,
+      "YY": 1.0,
+      "XZ": 0.0,
+      "IZ": 0.0,
+      "ZI": 0.0,
+      "IX": 0.005284,
+      "XI": 0.038312,
+      "IY": -0.019632,
+      "YI": -0.094946
+    },
+    "reconstructed_rho": [
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ]
+    ],
+    "fidelity": 0.0
+  },
+  "ghz_state": {
+    "state_type": "ghz",
+    "num_qubits": 3,
+    "shots": 1000,
+    "measured_paulis": {
+      "ZZZ": 1.0,
+      "XXX": 0.0,
+      "YYY": 0.0
+    },
+    "reconstructed_rho": [
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ],
+      [
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        },
+        {
+          "re": 0,
+          "im": NaN
+        }
+      ]
+    ],
+    "fidelity": 0.0
+  }
+}
